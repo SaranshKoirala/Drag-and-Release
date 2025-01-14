@@ -27,5 +27,8 @@ The drag-and-drop feature is implemented in pure JavaScript without any optimiza
 
 Allow users to customize the look and feel of the draggable div and container (e.g., adding themes, custom CSS classes). Use the third party library for the better animation and styling.
 
+##Vide Link (preview)
+https://drive.google.com/file/d/1KqC_muUKnfD93UkvLDdzi5LKcH03G0Q_/view?usp=sharing
+
 
 
