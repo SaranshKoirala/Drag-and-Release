@@ -1,0 +1,55 @@
+/* Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+/* Container styling */
+.container {
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  scroll-behavior: smooth; /* Smooth scrolling for better UX */
+}
+
+/* Post styling */
+.post {
+  width: 90%;
+  height: 150px;
+  margin: 15px auto;
+  background: #e0e0e0;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  text-align: center;
+  cursor: grab;
+}
+
+/* Highlighted post styling */
+.post.focused {
+  transform: scale(1.2);
+  background: #007bff;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Cursor change during dragging */
+.container:active .post {
+  cursor: grabbing;
+}
